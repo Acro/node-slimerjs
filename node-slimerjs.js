@@ -73,7 +73,7 @@ exports.create = function (callback, options) {
         }
         args = args.concat([path.join(__dirname, 'bridge.js')]);
 	//console.log('launch ' + options.slimerPath + ' ' + args);
-        var slimer = spawn(options.slimerPath, args);
+        var slimer = spawn("xvfb-run", [ options.slimerPath ].concat(args));
 	
         // Ensure that the child process is closed when this process dies
         var closeChild = function () {
