@@ -1,12 +1,12 @@
 {
   "author": "Mango Tools ( info@mango.tools)",
-  "name": "node-slimerjs",
+  "name": "smartlook-node-slimerjs",
   "description": "Simple and reliable bridge between Node.js and SlimerJS",
-  "version": "1.0.1",
-  "homepage": "https://github.com/MangoTools/node-slimerjs",
+  "version": "1.0.3",
+  "homepage": "https://github.com/Acro/node-slimerjs",
   "repository": {
     "type": "git",
-    "url": "git@github.com:MangoTools/node-slimerjs.git"
+    "url": "git@github.com:Acro/node-slimerjs.git"
   },
   "main": "node-slimerjs.js",
   "scripts": {
