@@ -75,7 +75,7 @@ exports.create = function (callback, options) {
 	//console.log('launch ' + options.slimerPath + ' ' + args);
     
         var slimer
-        if (options.useXvfb)
+        if (options.useXvfb) {
             slimer = spawn("xvfb-run", [ options.slimerPath ].concat(args));
         } else {
             slimer = spawn(options.slimerPath, args);
